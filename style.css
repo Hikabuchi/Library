@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --color1: #0C0C0E;
+    --color2: #fff;
+}
+
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: url(./assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Forum", serif;
+    src: url(./assets/fonts/Forum/Forum-Regular.ttf);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color1);
+    width: 100%;
+    min-height: 90px;
+    padding: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo-h1{
+    font-family: "Forum", serif;
+    color: var(--color2);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+
+.nav-item a{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    text-decoration: none;
+    color: var(--color2);
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
