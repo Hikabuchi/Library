@@ -5,6 +5,7 @@
 }
 
 :root{
+    --color0: #000000;
     --color1: #0C0C0E;
     --color2: #fff;
     --color3: #BB945F;
@@ -153,4 +154,109 @@
 .slick-dots li[class="slick-active"] button{
     background-color: var(--color3);
     color: var(--color3);
+}
+
+/*section Favorites*/
+
+.Staff-Picks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 550px;
+    height: 555px;
+    border: 1px solid var(--color0);
+    padding: 15px 20px;
+}
+
+.line-h3{
+    width: 60px;
+    height: 1px;
+    background-color: var(--color3);
+}
+
+.title-h3 h3{
+    font-family: "Forum", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.name-and-autor{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+.book-info p{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 355px;
+    text-transform: capitalize;
+}
+
+.book img{
+    margin-right: -60px;
+    margin-bottom: -15px;
+}
+
+.book{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.button-buy-book{
+    width: 75px;
+    height: 30px;
+    border: 1px solid var(--color1);
+	border-radius: 2px;
+    background: none;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 1px;		
+}
+
+.book-info{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-top,
+.container-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 260px;
+}
+
+.Winter{
+    display: none;
+    margin: 20px 0;
+}
+
+.Spring{
+    display: none;
+    margin: 20px 0;
+}
+
+.Summer{
+    display: none;
+    margin: 20px 0;
+}
+
+.Autumn{
+    display: none;
+    margin: 20px 0;
 }

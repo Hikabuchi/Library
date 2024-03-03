@@ -26,3 +26,14 @@ $(document).ready(function(){
     ]
     });
 });
+
+function ShowOrHide(check, block) {
+   check = document.getElementById(check);
+   block = document.getElementById(block);
+   if (check.checked) {
+    block.style.display ='block'
+   }
+   else{
+    block.style.display ='none'
+   }
+}
