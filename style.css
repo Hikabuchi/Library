@@ -10,12 +10,12 @@
 }
 
 @font-face {
-    font-family: "Inter", sans-serif;
+    font-family: "Inter";
     src: url(./assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 @font-face {
-    font-family: "Forum", serif;
+    font-family: "Forum";
     src: url(./assets/fonts/Forum/Forum-Regular.ttf);
 }
 
@@ -90,4 +90,24 @@
     color: var(--color2);
     text-align: center;
     text-transform: uppercase;
+}
+
+/* section Abaut*/
+
+.title-line{
+    width: 50px;
+    height: 1px;
+    background-color: var(--color1);
+}
+
+.title-h2 h2{
+    font-family: "Forum", serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+
+.none{
+display: none;
 }
